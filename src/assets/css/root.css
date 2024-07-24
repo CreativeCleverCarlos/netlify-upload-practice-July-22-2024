@@ -933,7 +933,7 @@
     line-height: 1.2em;
     font-weight: 700;
     margin: 0;
-    color: var(--headerColor);
+    color: var(white);
     display: block;
   }
   #cs-navigation .cs-link-content {
@@ -941,7 +941,7 @@
     line-height: 1.2em;
     font-weight: 400;
     margin: 0;
-    color: var(--bodyTextColor);
+    color: var(#b5b8b6);
     display: block;
   }
   #cs-navigation .cs-bottom-bar {
@@ -1059,7 +1059,7 @@
     line-height: 1.2em;
     font-weight: 400;
     margin: 0;
-    color: var(--bodyTextColorWhite);
+    color: var(white);
     display: block;
   }
   #cs-navigation .cs-call .cs-link-content {
@@ -1067,7 +1067,7 @@
     line-height: 1.2em;
     font-weight: 700;
     margin: 0;
-    color: var(--bodyTextColorWhite);
+    color: var(#b5b8b6);
     display: block;
   }
 }
@@ -1094,7 +1094,7 @@
   }
   body.dark-mode #cs-navigation .cs-header,
   body.dark-mode #cs-navigation .cs-link-content {
-    color: var(--bodyTextColorWhite);
+    color: var(#b5b8b6);
   }
   body.dark-mode #cs-navigation .cs-wrapper:before {
     background-color: #fff;
