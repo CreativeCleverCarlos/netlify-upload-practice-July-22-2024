@@ -365,6 +365,7 @@
   }
   #cs-navigation .cs-contact-link {
     display: none;
+    color: white;
   }
   #cs-navigation .cs-container {
     width: 100%;
@@ -941,7 +942,7 @@
     line-height: 1.2em;
     font-weight: 400;
     margin: 0;
-    color: var(#b5b8b6);
+    color: var(white);
     display: block;
   }
   #cs-navigation .cs-bottom-bar {
@@ -1067,7 +1068,7 @@
     line-height: 1.2em;
     font-weight: 700;
     margin: 0;
-    color: var(#b5b8b6);
+    color: var(white);
     display: block;
   }
 }
@@ -1094,7 +1095,7 @@
   }
   body.dark-mode #cs-navigation .cs-header,
   body.dark-mode #cs-navigation .cs-link-content {
-    color: var(#b5b8b6);
+    color: var(--bodyTextColorWhite);
   }
   body.dark-mode #cs-navigation .cs-wrapper:before {
     background-color: #fff;
