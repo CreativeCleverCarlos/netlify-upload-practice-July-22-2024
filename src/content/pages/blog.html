@@ -28,61 +28,82 @@ eleventyNavigation:
         </picture>
     </section>
 
-    <!-- ============================================ -->
-    <!--              Main Blog Content               -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
 
-    <div class="blog-container main-content-wrapper">
-        <!--Main content -->
-        <div class="main-content">
-            <!-- ============================================ -->
-            <!--                 Blog Articles                -->
-            <!-- ============================================ -->
+<section id="services-1557">
+    <div class="cs-container">
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/bag.svg"
+                            loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Shipping & Return</h3>
+                    <p class="cs-item-text">
+                        If your glasses aren't perfect, return them within 30 days for a full refund. We'll even pay shipping.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/sheild.svg"
+                            loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Safe Payment</h3>
+                    <p class="cs-item-text">
+                        It’s no secret that one person alone cannot overcome the greatest humanitarian crises. It truly takes all of us.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <img class="cs-icon"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/bag.svg"
+                            loading="lazy" decoding="async" alt="icon" width="33" height="38" aria-hidden="true">
+                </picture>
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">Shop with Confidence</h3>
+                    <p class="cs-item-text">
+                        It’s no secret that one person alone cannot overcome the greatest humanitarian crises. It truly takes all of us.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+   
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
 
-            {% if collections.post | length == 0 %}
-                <h1>No Recent Posts</h1>
-            {% else %}
-                {%- for post in collections.post | reverse -%}
-                    <article class="recent-articles">
-                        <!--Main Article Image-->
-                        <picture class="blog-mainImage">
-                            <img
-                            src="{{ post.data.image }}"
-                            alt="{{ post.data.imageAlt }}"
-                            width="795"
-                            height="400"
-                            decoding="async"/>
-                        </picture>
-                        <!--Article Info-->
-                        <div class="article-group">
-                            <div class="blog-authorGroup">
-                                <!--Author Image-->
-                                <picture class="blog-author-img">
-                                    <img
-                                    src="/assets/svgs/profile.svg"
-                                    alt="house"
-                                    width="32"
-                                    height="32"
-                                    decoding="async"/>
-                                </picture>
-                                <span class="blog-author">{{ post.data.author }}</span>
-                                <span aria-hidden="true" class="blog-dot"></span>
-                                <!--Blog Date-->
-                                <span class="blog-date">{{ post.date | postDate }}</span>
-                            </div>
-                            <h2 class="blog-h1">
-                                {{ post.data.title }}
-                            </h2>
-                            <p class="blog-desc">
-                                {{ post.data.description }}
-                            </p>
-                            <a href="{{ post.url }}" class="blog-link">Continue Reading</a>
-                        </div>
-                    </article>
-                {%- endfor -%}
-            {% endif %}
-        </div>
+<section id="cta">
+    <div class="container">
+        <h2 class="title">
+            Get It Done
+            <br/>
+            With Us Today
+        </h2>
+        <p>
+            Say something catchy, informative, and encouraging to click the button to go to the contact page. I like to add these to the bottom of all pages.
+        </p>
+        <a href="/contact" class="cs-button-solid">Get an Estimate Now</a>
+    </div>
+    <picture>
+        <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
+        <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
+        <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="lazy" width="2500" height="1667">
+    </picture>
 
-        {% include 'components/featured-post.html' %}
+</section>
+
     </div>
 {% endblock %}
