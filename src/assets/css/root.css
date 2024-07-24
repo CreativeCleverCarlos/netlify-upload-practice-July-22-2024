@@ -1392,7 +1392,7 @@
     font-size: 1.125rem;
     line-height: 1.16666667em;
     font-weight: bold;
-    color: #fff;
+    color: white;
   }
   #footer .right-section .lists ul h2:before {
     position: absolute;
@@ -1789,13 +1789,13 @@
     line-height: 1.2em;
     margin: 0;
     margin-bottom: 1rem;
-    color: var(--headerColor);
+    color: var(white);
   }
   #services-222 .cs-item-text {
     font-size: 1rem;
     line-height: 1.5em;
     margin: 0;
-    color: var(--bodyTextColor);
+    color: var(--bodyText);
   }
 }
 /* Tablet - 768px */

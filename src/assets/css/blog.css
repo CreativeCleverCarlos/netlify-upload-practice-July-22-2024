@@ -78,7 +78,7 @@
     line-height: 1.5em;
     margin: 0;
     margin-bottom: 0.5rem;
-    color: var(--headerColor);
+    color: var(white);
   }
   #services-1557 .cs-item-text {
     /* 14px - 16px */
@@ -86,7 +86,7 @@
     text-align: inherit;
     line-height: 1.5em;
     margin: 0;
-    color: var(--bodyTextColor);
+    color: var(white);
   }
 }
 /* Tablet - 768px */
