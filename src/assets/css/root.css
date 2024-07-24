@@ -341,6 +341,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #082032;
   }
   #cs-navigation .cs-top-container {
     width: 100%;
@@ -854,6 +855,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #082032;
   }
   #cs-navigation .cs-top-container {
     width: 100%;
