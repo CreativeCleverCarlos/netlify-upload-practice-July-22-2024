@@ -244,97 +244,6 @@
 }
 
 /*-- -------------------------- -->
-<---      Dark Mode Toggle      -->
-<--- -------------------------- -*/
-
-/* Mobile - 360px */
-@media only screen and (min-width: 0rem) {
-    body.dark-mode {
-        #dark-mode-toggle {
-            .cs-sun {
-                transform: translate(-50%, -50%);
-                opacity: 1;
-            }
-
-            .cs-moon {
-                transform: translate(-50%, -150%);
-                opacity: 0;
-            }
-        }
-    }
-
-    #dark-mode-toggle {
-        width: (48/16rem);
-        height: (48/16rem);
-        padding: 0;
-        background: transparent;
-        border: none;
-        overflow: hidden;
-        display: block;
-        order: 2;
-        position: relative;
-        z-index: 1000;
-
-        img,
-        svg {
-            //center image inside button
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: (20/16rem);
-            height: (20/16rem);
-            pointer-events: none;
-        }
-
-        .cs-moon {
-            z-index: 2;
-            // Transition properties
-            transition:
-                transform 0.3s,
-                opacity 0.3s;
-            fill: #1a1a1a;
-        }
-
-        .cs-sun {
-            z-index: 1;
-            // Transition property
-            transform: translate(-50%, 100%);
-            opacity: 0;
-            transition:
-                transform 0.3s,
-                opacity 0.3s;
-        }
-    }
-}
-
-/* Tablet - 768px */
-@media only screen and (min-width: 48rem) {
-    #dark-mode-toggle {
-        margin-left: (16/16rem);
-        position: relative;
-        bottom: auto;
-        right: auto;
-        order: 3;
-    }
-}
-
-/* Desktop - 1024px */
-@media only screen and (min-width: 64rem) {
-    #dark-mode-toggle {
-        position: relative;
-        transform: none;
-        bottom: auto;
-        right: auto;
-        margin: 0;
-
-        &:hover {
-            cursor: pointer;
-        }
-    }
-}
-
-/*-- -------------------------- -->
 <---     Mobile Navigation      -->
 <--- -------------------------- -*/
 
@@ -754,31 +663,6 @@
     }
 }
 
-/* Dark Mode */
-@media only screen and (max-width: 63.9375rem) {
-    body.dark-mode {
-        #cs-navigation {
-            background-color: var(--dark);
-
-            .cs-logo {
-                /* makes it white */
-                filter: grayscale(1) brightness(1000%);
-            }
-
-            .cs-ul-wrapper {
-                background-color: var(--dark);
-            }
-
-            .cs-li-link {
-                color: var(--bodyTextColorWhite);
-            }
-
-            .cs-container {
-                background-color: rgba(0, 0, 0, 0.5);
-            }
-        }
-    }
-}
 
 /*-- -------------------------- -->
 <---     Navigation Dropdown    -->
@@ -996,7 +880,7 @@
 
 /* Dark Mode */
 @media only screen and (min-width: 64rem) {
-    body.dark-mode {
+    body{
         #cs-navigation {
             .cs-drop-ul {
                 background-color: var(--dark);
@@ -1316,7 +1200,7 @@
 
 /* Dark Mode */
 @media only screen and (min-width: 64rem) {
-    body.dark-mode {
+    body{
         #cs-navigation {
             background-color: var(--dark);
 
@@ -1579,7 +1463,7 @@
 
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
-    body.dark-mode {
+    body{
         #cta {
             &:after {
                 display: none;
