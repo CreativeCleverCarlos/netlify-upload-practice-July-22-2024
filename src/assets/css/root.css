@@ -945,11 +945,10 @@
   }
   #cs-navigation .cs-bottom-bar {
     width: 100%;
-    background-color: #1a1a1a;
+    background-color: #05131e;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #082032;
   }
   #cs-navigation .cs-container {
     width: 100%;
