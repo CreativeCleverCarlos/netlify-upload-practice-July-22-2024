@@ -60,7 +60,7 @@
     width: 100%;
     max-width: 40.625rem;
     margin: 0;
-    color: var(#b5b8b6);
+    color: var(--bodyTextColor);
   }
   .cs-button-solid {
     text-align: center;
@@ -365,7 +365,6 @@
   }
   #cs-navigation .cs-contact-link {
     display: none;
-    color: white;
   }
   #cs-navigation .cs-container {
     width: 100%;
@@ -934,7 +933,7 @@
     line-height: 1.2em;
     font-weight: 700;
     margin: 0;
-    color: var(white);
+    color: var(--headerColor);
     display: block;
   }
   #cs-navigation .cs-link-content {
@@ -942,7 +941,7 @@
     line-height: 1.2em;
     font-weight: 400;
     margin: 0;
-    color: var(white);
+    color: var(--bodyTextColor);
     display: block;
   }
   #cs-navigation .cs-bottom-bar {
@@ -1060,7 +1059,7 @@
     line-height: 1.2em;
     font-weight: 400;
     margin: 0;
-    color: var(white);
+    color: var(--bodyTextColorWhite);
     display: block;
   }
   #cs-navigation .cs-call .cs-link-content {
@@ -1068,7 +1067,7 @@
     line-height: 1.2em;
     font-weight: 700;
     margin: 0;
-    color: var(white);
+    color: var(--bodyTextColorWhite);
     display: block;
   }
 }
