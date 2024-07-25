@@ -60,7 +60,7 @@
     width: 100%;
     max-width: 40.625rem;
     margin: 0;
-    color: var(--bodyTextColor);
+    color: white;
   }
   .cs-button-solid {
     text-align: center;
@@ -144,7 +144,7 @@
   h5,
   h6 {
     margin: 0;
-    color: var(--headerColor);
+    color: white;
   }
   p,
   li,
@@ -155,7 +155,7 @@
   }
   p,
   li {
-    color: #353535;
+    color: white;
   }
   a:hover,
   button:hover {
@@ -933,7 +933,7 @@
     line-height: 1.2em;
     font-weight: 700;
     margin: 0;
-    color: var(--headerColor);
+    color: white;
     display: block;
   }
   #cs-navigation .cs-link-content {
@@ -941,7 +941,7 @@
     line-height: 1.2em;
     font-weight: 400;
     margin: 0;
-    color: var(--bodyTextColor);
+    color: lightgrey;
     display: block;
   }
   #cs-navigation .cs-bottom-bar {
@@ -1555,7 +1555,6 @@
   #cs-footer-1339 .cs-title {
     margin: 0 0 2rem 0;
     max-width: 23ch;
-    color: var(white);
   }
   #cs-footer-1339 .cs-social {
     display: inline-flex;
@@ -1800,7 +1799,7 @@
     font-size: 1rem;
     line-height: 1.5em;
     margin: 0;
-    color: var(--bodyTextColor);
+    color: white;
   }
 }
 /* Tablet - 768px */
