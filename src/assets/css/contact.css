@@ -56,7 +56,7 @@
     font-size: 1rem;
     line-height: 1.5em;
     font-weight: 700;
-    color: var(--headerColor);
+    color: white;
   }
   #cs-contact #cs-form .cs-label-message {
     /* 32px - 48px */

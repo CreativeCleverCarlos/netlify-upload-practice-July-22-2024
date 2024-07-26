@@ -50,7 +50,7 @@
     text-align: inherit;
     max-width: 43.75rem;
     margin: 0 0 1rem 0;
-    color: var(white);
+    color: white;
     position: relative;
   }
   .cs-text {
@@ -392,6 +392,7 @@
     order: 1;
     z-index: 10;
     filter: grayscale(1) brightness(1000%);
+    text-decoration: none;
   }
   #cs-navigation .cs-logo img {
     width: auto;
@@ -979,6 +980,7 @@
     align-items: center;
     z-index: 100;
     filter: grayscale(1) brightness(1000%);
+    text-decoration: none;
   }
   #cs-navigation .cs-logo img {
     width: 100%;
