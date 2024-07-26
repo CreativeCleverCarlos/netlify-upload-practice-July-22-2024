@@ -5,7 +5,7 @@
 @media only screen and (min-width: 0rem) {
   #hero-1300 {
     /* 150px - 350px */
-    padding: clamp(11.25rem, 30.95vw, 21.875rem) calc(16 / 16 * 1rem);
+    padding: clamp(15.625rem, 30.95vw, 21.875rem) calc(16 / 16 * 1rem);
     padding-bottom: 0;
     position: relative;
     z-index: 1;
