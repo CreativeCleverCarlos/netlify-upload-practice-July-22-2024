@@ -1,15 +1,12 @@
 module.exports = {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
+    "name": "Tax Chateau Financial Corp",
+    "email": "Chateau@gmail.com",
+    "phoneForTel": "1-548-468-6140",
+    "phoneFormatted": "(548) 468-6140",
     "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+        "city": "London, ON",
+        "Provice": "ON",
+        "mapLink": "https://maps.app.goo.gl/yoB1kL7tPTKX79mc9"
     },
     "socials": {
         "facebook": "https://www.facebook.com/",
