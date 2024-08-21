@@ -1,6 +1,6 @@
 module.exports = {
     "name": "Tax Chateau Financial Corp",
-    "email": "Chateau@gmail.com",
+    "email": "Taxchateau@gmail.com",
     "phoneForTel": "1-548-468-6140",
     "phoneFormatted": "(548) 468-6140",
     "address": {
